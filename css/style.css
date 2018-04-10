@@ -1,0 +1,188 @@
+body{
+    background: #f4f4f4;
+    overflow-x: hidden;
+    height: 100%;
+}
+#up{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1;
+  display: none;
+  
+
+}
+
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    min-height: 45px  !important;
+    margin-bottom:0;
+    border-radius:0;
+   
+   
+}
+
+  .navbar-default {
+    background-color: #106bb4;
+    border: none;
+    box-shadow: 2px 2px 3px #333333;
+   
+  }
+  .navbar-default .navbar-brand {
+    color: #f0f1ec;
+  }
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #ffdbe0;
+  }
+  .navbar-default .navbar-text {
+    color: #f0f1ec;
+  }
+  .navbar-default .navbar-nav > li > a {
+    color: #f0f1ec;
+  }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    color: #ffdbe0;
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #ffdbe0;
+    background-color: #0e0460;
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+    color: #ffdbe0;
+    background-color: #0e0460;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: #0e0460;
+  }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: #0e0460;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #f0f1ec;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+    border-color: #f0f1ec;
+  }
+  .navbar-default .navbar-link {
+    color: #f0f1ec;
+  }
+  .navbar-default .navbar-link:hover {
+    color: #ffdbe0;
+  }
+  /*header*/
+ header#header{
+      min-height: 450px;
+      background-image: url("../img/adobe-photoshop-apple-books-56759.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 20px;
+  }
+  
+  
+  #offre h1{
+    font-size: 50px;
+    color: white;
+  }
+  #offre p{
+    font-size: 25px;
+    color: white;
+    
+  }
+  .list-group-item {
+    font-size: 20px !important;
+  }
+  .list-group-item a{
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  .section-1 p{
+    font-size: 21px;
+  }
+  /*section-2*/
+  .spicial{
+    text-align: center;
+ 
+  }
+  .spicial .fa{
+    font-size: 65px;
+    color: white;
+  }
+  .spicial span{
+    background-color:#0066cc ;
+    padding:0.6em;
+    border: 0;
+    border-radius:50%; 
+  }
+  .spicial .well{
+    background: #e8e8ff !important;
+  }
+  
+  /*section-3*/
+  .section-3  {
+    margin-top: 35px !important;
+    
+  }
+  .section-3 .well{
+    background: #f0f8ff !important; 
+    padding-bottom: 2em !important;
+    border: 1px solid #3030ff;
+    border-radius: 0;
+
+  }
+  /*section-4*/
+  .section-4{
+    margin-top: 5em;
+    padding-top: 3em;
+    background-color: #d0d0e1;
+    min-height: 930px;
+  }
+  .section-4 p{
+    font-size: 20px;
+  }
+  .section-4 .row{
+    margin-top: 7em;
+    
+  }
+  .section-4 .price{
+    transform: scale(1.2,1.3);
+    
+  }
+  /*section-5*/
+  .section-5 .row{
+    padding: 1em 1em 2em 1em;
+   
+  }
+  #button{
+    margin-top: 3em;
+   
+  }
+  footer{
+    min-height: 100px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    font-size: 20px
+  }
+  
+
+  
+ 
+  @media (max-width: 992px) {
+    .section-4 .price{
+      transform: scale(1,1);
+      
+    }
+   
+  }
